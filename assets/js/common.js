@@ -4,7 +4,7 @@ const parallaxAnim = () => {
     const parallax = document.getElementById('parallax');
     const offsetY = window.scrollY;
 
-    parallax.style.cssText = 'position: sticky; top: 0;';
+    parallax.style.cssText = 'position: sticky; top: 0; z-index: 0; transition: all 0s';
     parallax.style.transform = 'translateY(-' + (offsetY * 0.06) + 'vh)';
 }
 window.addEventListener('scroll', parallaxAnim, false);
