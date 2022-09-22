@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* reset styles */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, span, i, u, b, dl, dt, dd, ol, ul, li, form, label, table, caption, thead, tbody, tr, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+header, footer, article, aside, canvas, figure, nav, section {
+    display: block;
+    box-sizing: border-box;
+}
+
+input, button, select, textarea {
+    appearance: none;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    font: inherit;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
